@@ -97,7 +97,7 @@ with tab2:
         
         st.download_button("💾 下载报告", data=f"关键词: {top_keywords}\n得分: {intent_score}\n建议: {suggestions}", file_name="seo_content_report.txt")
 
-st.sidebar.info("基于2025趋势：AI意图 + E-E-A-T | 支持中英 | 扩展：加Semrush API。")            # 长度检查
+        st.sidebar.info("基于2025趋势：AI意图 + E-E-A-T | 支持中英 | 扩展：加Semrush API。")            # 长度检查
             title_len = len(title)
             desc_len = len(desc)
             
